@@ -1,0 +1,84 @@
+
+@media screen and (min-width: 398px) {
+    .restoran { 
+        width: 310px;
+        margin: 50px auto;
+    }
+
+    .background_tabel_info_restoran{
+        padding: 40px 50px;
+    }
+
+    .review_restoran > h3 {
+        font-size: 18.72px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .restoran { 
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-menu {
+        position: initial;
+        flex-direction: initial;
+        background-color: initial;
+        width: initial;
+        box-shadow: none;
+        transition: initial;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1020px) {
+    .restoran { 
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        width: initial;
+    }
+
+    .pesan-error{
+        margin: 300px 0;
+    }
+    
+    #loader{
+        margin: 300px auto;
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    .restoran { 
+        width: 990px;
+    }
+}
+
+@media screen and (min-width: 1135px) {
+    .info_restoran{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 30px;
+        text-align: left;
+    }
+
+    .info_restoran > img{
+        max-height: 350px;
+        width: initial;
+        margin: initial;
+    }
+
+    .background_tabel_info_restoran{
+        max-height: 350px;
+        margin: initial;
+    }
+
+    .review_restoran{
+        width: 100%;
+        margin: initial;
+    }
+}
